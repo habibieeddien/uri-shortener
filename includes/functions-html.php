@@ -144,7 +144,7 @@ function yourls_html_footer() {
 	</div><?php // wrap ?>
 	<footer id="footer" role="contentinfo"><p>
 		<?php
-		$footer  = yourls_s( 'Graha BNPB - Pastigana IT 2018 | Powered by %s', '<a href="http://yourls.org/" title="YOURLS">YOURLS</a> v ' . YOURLS_VERSION );
+		$footer  = yourls_s( 'Graha BNPB - Pastigana IT 2018 | Powered by %s', '<a href="mailto:habibie.tk@gmail.com" title="YOURLS">YOURLS</a> v ' . YOURLS_VERSION );
 		$footer .= ' &ndash; '.$num_queries;
 		echo yourls_apply_filter( 'html_footer_text', $footer );
 		?>
@@ -746,7 +746,7 @@ function yourls_html_menu() {
 	} else {
 		$logout_link = yourls_apply_filter( 'logout_link', '' );
 	}
-	$help_link   = yourls_apply_filter( 'help_link',   '<a href="' . yourls_site_url( false ) .'/readme.html">' . yourls__( 'Help' ) . '</a>' );
+	$help_link   = yourls_apply_filter( 'help_link',   '<a href="' . yourls_site_url( false ) .'/pastigana.html">' . yourls__( 'Help' ) . '</a>' );
 	
 	$admin_links    = array();
 	$admin_sublinks = array();
