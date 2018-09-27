@@ -1,0 +1,10 @@
+{
+  "name": "yourls/yourls",
+  "description": "Your Own URL Shortener",
+  "keywords": ["shortener", "url shortener", "short url", "url", "bitly"],
+  "homepage": "http://yourls.org",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.3"
+  }
+}
